@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/rectangle_light_stroke_blue_background">
+
+
+        <TextView
+            android:id="@+id/order_layout_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="order id:xx"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/order_layout_user_id"
+            android:layout_width="200dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="user name:xx"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/order_layout_order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="date: 12.12.2020"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_layout_order_id" />
+
+        <TextView
+            android:id="@+id/order_layout_order_numof_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="Adet: 12"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_layout_order_date" />
+
+        <TextView
+            android:id="@+id/order_layout_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="address"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_layout_order_numof_book" />
+
+        <TextView
+            android:id="@+id/order_layout_total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="total: 157.86 TL"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_layout_address" />
+
+        <TextView
+            android:id="@+id/order_layout_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="durum: onay bekliyor"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/order_layout_shipper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/order_layout_order_numof_book"
+            app:layout_constraintTop_toBottomOf="@+id/order_layout_user_id" />
+
+        <TextView
+            android:id="@+id/order_layout_shipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="kargo"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

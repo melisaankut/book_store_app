@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">KitHub</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu bibendum odio. Mauris aliquam pharetra lacus at vulputate. Etiam non sem quis eros dignissim luctus. Duis dictum elit tellus, ullamcorper ultrices diam convallis sed. Cras iaculis, leo a sagittis efficitur, eros ligula condimentum sem, nec aliquet dui neque eget sapien. Proin quis euismod arcu. Integer pretium nisi erat, at consequat purus rhoncus et. Integer quis elementum lectus. Ut a dolor nisl. Mauris a lacus eu urna cursus pulvinar. Aenean laoreet nulla eros, id eleifend ipsum tempor pulvinar. Integer rhoncus aliquam lorem, nec euismod ipsum luctus non. Nullam urna enim, posuere quis libero consequat, lacinia iaculis leo.</string>
+
+    <string name="more">daha fazla</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="logout">Çıkış yap</string>
+
+    <string name="category_add_success">Kategori başarıyla eklendi</string>
+    <string name="category_add_confirm">EKLEME ONAYI</string>
+    <string name="category_add_cancel">İptal</string>
+    <string name="category_add_enter_name">Lütfen kategori ismi giriniz</string>
+    <string name="category_add_error">HATA</string>
+    <string name="category_add_ok">Tamam</string>
+    <string name="category_add_sure">\" isimli kategoriyi eklemek istediğinize emin misiniz?\"</string>
+    <string name="category_add_verify">Onayla</string>
+    <string name="category_add_sure2">%1$s kategorisine %2$s kitap türünü eklemek istediğinize emin misiniz?"</string>
+    <string name="category_add_exist">Eklemek istediğiniz kategori zaten mevcut</string>
+
+    <string name="book_add_error">Tüm bilgileri girdiğinizden emin olun !</string>
+    <string name="book_add_sure">adlı kitabı eklemek istediğinize emin misiniz?</string>
+    <string name="book_add_confirm">EKLEME ONAYI</string>
+    <string name="book_add_cancel">İptal</string>
+    <string name="book_add_ok">Onayla</string>
+    <string name="book_add_success">Kitap başarıyla eklendi</string>
+
+    <string name="category_delete_not_found">Kategori Bulunamadı.</string>
+    <string name="category_delete_sure">\ kategorisini ya da kitap türünü silmek istediğinize emin misiniz?\"</string>
+    <string name="category_delete_confirm">SİLME ONAYI</string>
+    <string name="category_delete_cancel">İptal</string>
+    <string name="category_delete_ok">Onayla</string>
+
+    <string name="profile_info_wrong_pw">Eski şifrenizi yanlış girdiniz</string>
+    <string name="profile_info_wrong_phone">Geçersiz telefon numarası \n 5 ile başlayıp 10 haneli olmalı.</string>
+    <string name="profile_info_wrong_mail">Geçersiz mail</string>
+    <string name="profile_info_check_again">Bilgileri tekrar kontrol ediniz</string>
+    <string name="profile_info_cancel">Vazgeç</string>
+    <string name="profile_info_save">Kaydet</string>
+    <string name="profile_info_success">Değişiklikler Kaydedildi</string>
+    <string name="profile_info_sure">Değişiklikleri kaydetmek istediğinize emin misiniz?</string>
+    <string name="profile_info_confirm">Değişiklikleri Kaydet</string>
+    <string name="profile_info_permission">Bu yetkiyi ayarlardan değiştirebilirsiniz</string>
+
+    <string name="mismatched_password">Şifreler uyumlu değil</string>
+
+    <string name="profile_page_log_out">Çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="profile_page_no">Hayır</string>
+    <string name="profile_page_yes">Evet</string>
+
+    <string name="login_success">Giriş başarılı\nAna sayfaya yönlendiriliyorsunuz</string>
+    <string name="login_fail">Giriş başarısız\nLütfen e-mail ve şifrenizi kontrol ediniz</string>
+
+    <string name="logout_success">Hesabınızdan başarıyla çıkış yapıldı\nAna sayfaya yönlendiriliyorsunuz</string>
+    <string name="add_book_already">Eklemeye çalıştığınız kitap zaten mevcut</string>
+    <string name="book_page_remindMe">Stoğa Gelince Bildir</string>
+    <string name="book_page_addCart">Sepete Ekle</string>
+    <string name="signUp_already">Bu mail adresi veya telefon numarası sistemde mevcut</string>
+    <string name="signUp_registered">Kayıt başarılı</string>
+    <string name="login_admin">Admin girişi başarılı</string>
+    <string name="order_confirm_page_title">Onay Bekleyen Siparişler</string>
+    <string name="bookpage_comment_success">Yorumunuz başarıyla eklendi</string>
+    <string name="bookpage_comment_exists">Bu kitap için zaten yorum eklemişsiniz</string>
+    <string name="bookpage_comment_login">Yorum yapmak için lütfen giriş yapınız</string>
+    <string name="cart_no_book">Sepetinizde ürün bulunmamaktadır</string>
+    <string name="payment_select_shipper">Lütfen bir kargo şirketi seçiniz</string>
+    <string name="pay_select_install">Lütfen taksit sayısı seçiniz</string>
+    <string name="select_category_to_delete">Silinecek kategoriyi seçin</string>
+    <string name="discount_sure">adlı kitaba indirim uygulamak istediğinizden emin misiniz?\nEminseniz miktarı giriniz.</string>
+    <string name="discount_cancel">İşlem iptal edildi</string>
+    <string name="order_confirm_yes">Sipariş onaylandı</string>
+    <string name="order_confirm_no">Sipariş reddedildi</string>
+    <string name="order_confirm_fail">İşlem başarısız</string>
+    <string name="delete_book_confirm">\" adlı kitabı silmek istedğinizden emin misiniz?\"</string>
+    <string name="delete_book_confirm_screen">Kitap silme onaylama ekranı</string>
+    <string name="delete_book_yes">Evet</string>
+    <string name="delete_book_success">Kitap sistemden başarıyla silindi.</string>
+    <string name="delete_book_no">Hayır</string>
+    <string name="delete_book_cancel">İşlem iptal edildi</string>
+    <string name="addCart_notLogin">Sepete ekleme işlemi için lütfen giriş yapınız.</string>
+
+    <string-array name="operation_type">
+        <item>Giriş yapma</item>
+        <item>Çıkış yapma</item>
+        <item>Sepet İşlemleri</item>
+        <item>Sipariş verme</item>
+        <item>Yorum yapma</item>
+        <item>Kullanıcı bilgileri güncelleme</item>
+        <item>Kaydolma</item>
+    </string-array>
+
+    <string-array name="time_filter">
+        <item>24 saat</item>
+        <item>1 hafta</item>
+        <item>1 ay</item>
+        <item>1 yıl</item>
+        <item>Tüm zamanlar</item>
+    </string-array>
+
+</resources>

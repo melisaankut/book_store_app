@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".UserInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/profilePage_photo"
+                    android:layout_width="135dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/searchUser_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/profile_pp" />
+
+                <TextView
+                    android:id="@+id/searchUser_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="User name and surname"
+                    android:textColor="#0C0000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/profilePage_photo"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/searchUser_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="E-mail"
+                    android:textColor="#0C0000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/profilePage_photo"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUser_name" />
+
+                <TextView
+                    android:id="@+id/searchUser_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Telefon Numarası"
+                    android:textColor="#0C0000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/profilePage_photo"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUser_email" />
+
+                <TextView
+                    android:id="@+id/searchUser_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Adres"
+                    android:textColor="#0C0000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/profilePage_photo"
+                    app:layout_constraintTop_toBottomOf="@+id/searchUser_phone" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/user_order_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/nexa_bold"
+                android:text="Sipariş Geçmişi"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/order_details_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/user_comment_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/nexa_bold"
+                android:text="Kullanıcının Yapmış Olduğu Yorumlar"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/comment_details_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
